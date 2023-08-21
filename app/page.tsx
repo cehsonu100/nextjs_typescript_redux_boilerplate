@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { AppDispatch, RootState } from '@/store/store';
 import { useEffect, useRef } from 'react';
 import { fetchUsers, increment } from '@/slices/userSlice';
+import { Button, Container } from '@mui/material';
 
 
 export default function Home() {
@@ -39,7 +40,7 @@ export default function Home() {
       //   objectFit="cover"
       //   quality={100}
       // />
-      <button onClick={incrementValue}>{value}</button>
+      <Button variant="outlined" onClick={incrementValue}>{value}</Button>
       }
       
     </main>
