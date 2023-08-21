@@ -1,0 +1,1 @@
+# nextjs_typescript_redux_boilerplate
