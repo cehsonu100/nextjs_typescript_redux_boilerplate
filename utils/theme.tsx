@@ -6,7 +6,7 @@ export const theme = createTheme({
         paper: '#fff',
       },
       primary: {
-        main: "#fcba03",
+        main: "#dc3545",
       },
       text: {
         primary: '#173A5E',
